@@ -5,3 +5,5 @@ services:
     image: ubuntu
     restart: on-failure
     command: ["sleep", "infinity"]
+    ports:
+      - 3000:3000
